@@ -1,0 +1,98 @@
+﻿/* Respect du Cahier des charges sous les styles = (CC) */
+
+body {
+    background-color: rgb(104, 187, 185);	/* (CC) - #68BBD7 */
+	font-family: Helvetica, Georgia, Impact, Arial, sans-serif;
+}
+
+
+ /* Entete de page fixe*/
+
+ header {
+	height: 15%;
+	text-align: center;
+	top:0px;
+}
+
+ /* Pied de page fixe*/
+footer {
+	bottom:0px;
+	height: 7%;
+	margin-right:5%;
+	text-align: left;
+	width: 100%;
+}
+ 
+header, footer {
+	background: white;
+	background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.6));
+	color: black;
+	display: block;
+	left: 0px;
+	opacity:.6;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+
+
+div#container {
+   	color: white;	/* (CC) */
+
+}
+
+
+div#left-box, div#right-box  {
+	background-color: rgb(9, 30, 45); /* (CC) -#091E2D */
+	margin-top:10%;
+}
+
+div#left-box {
+	float: left;	/* (CC) */
+	margin-left:5%;
+	width: 25%;
+}
+
+div#right-box {
+	float: right;
+	margin-right:5%;
+	width: 60%;
+}
+
+div#experiences-box, div#etudes-box {
+    background-color: rgb(255, 255, 255);   /* #3333CC */
+	margin: 5% 5% 5% 5%;
+	color: black;
+}
+
+div#left-box img {
+    display: block;
+	margin: 10% auto auto; 
+	height: auto;
+	width: 85%;
+}
+
+
+h2 h3 h4 {
+	margin: 5% 0% 2% 2%;
+}
+
+h3 {
+	margin-left: 5%;
+}
+
+p {	
+	margin-left:10%;
+}
+
+a {	
+	margin-left:5%;
+	background-color:black;
+
+.ecart {
+	float: right;
+	background-color:black;
+}
